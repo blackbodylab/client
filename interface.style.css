@@ -1,0 +1,64 @@
+﻿/* Client General */
+body {
+	font-family: "Trebuchet MS", "Helvetica", "Arial",  "Verdana", "sans-serif";
+	font-size: 62.5%;
+}
+.clear {
+	clear:left;
+}
+.lbl_Progressbar {
+	position: absolute;
+	left: 5%;
+	top: 4px;
+	font-weight: bold;
+	text-shadow: 1px 1px 0 #fff;
+}
+.ui-progressbar {
+	position: relative;
+	width: 250px;
+	float: left;
+}
+.ui-progressbar-value {
+	background-color: rgb(134, 232, 122);
+}
+.ui-menu { position: absolute; width: 200px; }
+
+
+
+/* Message Boxes */
+.messagebox {
+	width: auto;
+	border: 1px solid #EEE;
+	background-color: #F6F6F6;
+	color: #000;
+	padding: 0.8em;
+	margin-bottom: 0.75em;
+	overflow: hidden;
+	display: block;
+	float: none;
+	clear: both;
+}
+
+.error {
+	border-color: #EAA;
+	padding-left: 26px;
+	background: url('img/icon-error.png') no-repeat scroll 5px 0.6em #FBB;
+}
+
+.info {
+	border-color: #EEE;
+	padding-left: 26px;
+	background: url('img/icon-info.png') no-repeat scroll 5px 0.6em #F9F9F9;
+}
+
+.success {
+	border-color: #AEA;
+	padding-left: 26px;
+	background: url('img/icon-success.png') no-repeat scroll 5px 0.6em #BFB;
+}
+
+.warning {
+	border-color: #EEA;
+	padding-left: 26px;
+	background: url('img/icon-warning.png') no-repeat scroll 5px 0.6em #FFB;
+}
